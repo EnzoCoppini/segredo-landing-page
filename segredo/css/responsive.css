@@ -1,0 +1,9 @@
+@media (min-width:640px){.actions{flex-direction:row;flex-wrap:wrap}.grid{grid-template-columns:repeat(2,1fr)}.units{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:900px){
+ .sec{padding:104px 0}.burger{display:none}
+ .nav{position:static;display:flex;flex-direction:row;align-items:center;gap:26px;padding:0;background:none;border:0}.nav a{padding:0;font-size:.95rem}.nav .btn{margin:0}
+ .hero{padding:80px 0 100px}.hero-in{grid-template-columns:1.2fr 1fr;align-items:center}
+ .grid{grid-template-columns:repeat(3,1fr)}.tabs-wrap{margin:0;padding:12px 0}
+ .foot-in{grid-template-columns:1.3fr 1fr 1.6fr}
+}
+@media (min-width:1280px){.wrap{width:min(1180px,100% - 80px)}}
